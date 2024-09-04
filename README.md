@@ -29,15 +29,15 @@ Relevance to a Pizza Sales Store Manager:
 
 A pizza sales store manager can utilize this SQL project to extract valuable insights and conduct detailed data analysis, facilitating informed decision-making and efficient management of the store's operations. Here are a few insight for a store manager to manage the store more efficiently:
 
-1/ The total revenue generated from pizza sales
-2/ The highest-priced pizza
-3/ The most common pizza size ordered
-4/ The distribution of orders by hour of the day
-5/ The average number of pizzas ordered per day
-6/ The percentage contribution of each pizza type to total revenues
-7/ The cumulative revenue generated over time
-8/ The variation of revenue per day
-9/ The price range customer often choose
+1/ The total revenue generated from pizza sales.
+2/ The highest-priced pizza.
+3/ The most common pizza size ordered.
+4/ The distribution of orders by hour of the day.
+5/ The average number of pizzas ordered per day.
+6/ The percentage contribution of each pizza type to total revenues.
+7/ The cumulative revenue generated over time.
+8/ The variation of revenue per day.
+9/ The price range customer often choose.
 
 - Sales Analysis: By querying the order_details and pizzas tables, managers can identify the best-selling pizzas, assess revenue from different pizza sizes, and evaluate pricing strategies.
 - Inventory Management: Analyzing the pizza_types and their ingredients helps in managing inventory more efficiently, ensuring that ingredients are stocked according to demand and reducing waste.
