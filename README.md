@@ -1,6 +1,6 @@
 # SQL-Pizza-Project
 
-This SQL project revolves around a database schema designed to manage and analyze data for a pizza store. The database consists of four primary tables: order_details, pizzas, orders, and pizza_types. Each table plays a crucial role in storing different facets of the business operations, from individual orders to the types of pizzas offered. Below is a detailed description of each table and its columns:
+This SQL project analyzes data for a pizza store. The database consists of four primary tables. Each table plays a crucial role in storing different facets of the business operations, from individual orders to the types of pizzas offered. Below is a detailed description of each table and its columns:
 
 1. order_details:
    - order_details_id: A unique identifier for each entry in the order details.
@@ -27,10 +27,19 @@ This SQL project revolves around a database schema designed to manage and analyz
 
 Relevance to a Pizza Sales Store Manager:
 
-A pizza sales store manager can utilize this SQL project to extract valuable insights and conduct detailed data analysis, facilitating informed decision-making and efficient management of the store's operations. Here are a few points illustrating the importance and utility of this database for a store manager:
+A pizza sales store manager can utilize this SQL project to extract valuable insights and conduct detailed data analysis, facilitating informed decision-making and efficient management of the store's operations. Here are a few insight for a store manager to manage the store more efficiently:
+
+1/ The total revenue generated from pizza sales
+2/ The highest-priced pizza
+3/ The most common pizza size ordered
+4/ The distribution of orders by hour of the day
+5/ The average number of pizzas ordered per day
+6/ The percentage contribution of each pizza type to total revenues
+7/ The cumulative revenue generated over time
+8/ The variation of revenue per day
+9/ The price range customer often choose
 
 - Sales Analysis: By querying the order_details and pizzas tables, managers can identify the best-selling pizzas, assess revenue from different pizza sizes, and evaluate pricing strategies.
 - Inventory Management: Analyzing the pizza_types and their ingredients helps in managing inventory more efficiently, ensuring that ingredients are stocked according to demand and reducing waste.
-- Customer Preferences: Through data gathered in the orders and pizzas tables, managers can track customer preferences over time, adjusting the menu to cater to popular choices and experimenting with new or seasonal offerings.
-- Operational Efficiency: Date and time data from the orders table allow managers to assess peak hours and staff the store appropriately, ensuring operational efficiency and customer satisfaction.
-- Marketing Insights: Data analysis can also support targeted marketing campaigns, like promotions on specific types of pizzas that are popular or on days when sales are typically lower.
+- Customer Preferences: Through data gathered in the orders and pizzas tables, managers can track customer preferences over time, adjusting the menu to cater to popular choices and experimenting with new or seasonal offerings witth the popular price.
+- Operational Efficiency: Date and time data from the orders table allow managers to assess peak and low hours to arrange shift for the staff appropriately, ensuring operational efficiency and customer satisfaction.
